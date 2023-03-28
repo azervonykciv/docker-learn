@@ -4,3 +4,7 @@ docker container create --name nginxbackup --mount "type=bind,source=C:\Users\it
 
 docker container start nginxbackup
 
+docker container exec -i -t nginxbackup /bin/bash
+
+tar cvf /backup/backup.tar.gz /data 
+
