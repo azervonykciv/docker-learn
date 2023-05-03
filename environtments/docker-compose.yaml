@@ -5,7 +5,7 @@ services:
     image: mongo:latest
     container_name: mongodb-example
     ports:
-      - "27017:27017"
+      - " 27017:27017"
     environment:
       MONGO_INITDB_ROOT_USERNAME: vic
       MONGO_INITDB_ROOT_PASSWORD: vic
